@@ -1,0 +1,45 @@
+{% assign career-profile = site.data.data.career-profile %}
+{% if career-profile %}
+<section class="section summary-section">
+
+  <h2 class="section-title">
+    <span class="fa-stack fa-xs">
+      <i class="fas fa-circle fa-stack-2x"></i>
+      <i class="fas fa-user fa-stack-1x fa-inverse"></i>
+    </span>
+    {{ career-profile.title }}
+  </h2>
+
+  <div class="github-portfolio">
+    <h4 class="headline" style="display: block;">
+      My GitHub Portfolio:
+    </h4>
+    <a 
+    href="https://github.com/berlin-infra2022"
+    class="github" 
+    style="text-decoration: none; font-size: 1.2em; font-weight: 600;" 
+    target="_blank"
+    >
+      https://github.com/berlin-infra2022
+    </a>
+    <p>&nbsp;</p>
+    <h4 class="headline" style="display: block;">
+      My Online Profile:
+    </h4>
+    <a 
+    href="https://berlin-infra2022.github.io/my-website" 
+    class="github" 
+    style="text-decoration: none; font-size: 1.2em; font-weight: 600;" 
+    target="_blank"
+    >
+    https://berlin-infra2022.github.io/my-website
+    </a>
+    <p>&nbsp;</p>
+  </div>
+
+  <div class="summary">
+    {{ career-profile.summary | markdownify }}
+  </div><!--//summary-->
+    
+</section><!--//section-->
+{% endif %}

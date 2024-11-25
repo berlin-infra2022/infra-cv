@@ -1,0 +1,196 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+sidebar:
+    position: right # position of the sidebar : left or right
+    about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    education: True # set to False if you want education in main section instead of in sidebar
+
+    # Profile information
+    name: Berlin Lee
+    tagline: System Engineer
+    avatar: profile.JPG  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+
+    # Sidebar links
+    email: blee3344@alumni.sydney.edu.au
+    phone: +852 5490 2387
+    # website:  phoenixyork166.github.io/berlinlee-online-profile/ #do not add http://
+    website: berlin-infra2022.github.io/my-website/
+    timezone: Hong Kong SAR
+    citizenship:
+    linkedin: 
+    # xing: alandoe
+    github: berlinlee2022
+    # gitlab:
+    # bitbucket:
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+    # codewars:
+    # goodreads: # Number-Username, e.g. 123456-alandoe
+    pdf: 
+
+    languages:
+      title: Languages
+      info:
+        - idiom: English
+          level: Professional
+
+        - idiom: Cantonese
+          level: Professional
+
+    interests:
+      title: Interests
+      info:
+        - item: System Admin & DevOps
+          link:  
+
+career-profile:
+    title: Career Profile
+    summary: |
+         I'm an enthusiastic System Engineer from a SI background who holds MCSE (Microsoft Certified Azure Hybrid Administrator).
+
+         I'm interested in Cloud computing, Linux, Windows Servers & VMware administration.
+
+         Teamwork & coordination with client's teams have been nurturing my career.
+         
+education:
+    title: Education
+    info:
+      - degree: Bachelor of Project Management (Civil Engineering Science)
+        university: University of Sydney
+        time: 
+        details: |
+            - Programming: Python, Matlab, Visual Basics Application (VBA)
+            - Creativity & Drawing: Photoshop, AutoCAD, Civil 3D
+            - Management: Project Finance, Contracting & Negotiating, Complex Project Coordination, Project Organisational Behaviour
+            - Mathematics: Matrices, Differential Calculus, Integral Calculus, Multi-vector calculus
+            - Engineering: Engineering Physics, Static Mechanics, Engineering Geology, Structural Mechanics, Geotechnical Engineering
+            - Analysis: Project Profit Analysis, Structural Analysis with Illustrations, Geotechnical Engineering Drawings
+
+experiences:
+    title: 
+    info:
+      - role: Career break
+        time: Jul 2024 - present
+        company:
+        details: |
+          Travelling.
+
+          Learning Infra automation such as Python, Docker, Git.
+
+          Learning HTML5, CSS3 for Portfolio building.
+
+      - role: System Engineer
+        time: Jun 2022 - Jul 2024
+        company: Integrated Global Solutions Limited Full-time, Hong Kong
+        details: |
+           Daily operation & maintenances of Linux & Windows Servers 2019.
+
+           Scripting & automation skills:
+           - RegEx
+           - Python
+           - PowerShell
+           - Bash
+
+           Tracing & troubleshooting networking issues for Windows & Linux Servers.
+
+           Enterprise Cybersecurity tool administration.
+           (Tripwire Enterprise).
+
+           Assited inhouse security team for updating & verifying Security Rules & scripts.
+
+           System technical documentations.
+
+           OS patching for Linux & Windows servers.
+
+           Patching Enterprise Security software agents on virtualized platforms.
+
+           Registering SSH certificates between Linux servers.
+
+           Perform SSH hardening on Linux servers.
+
+           Coordinated with client's Implementation team & DBA team for verifying OS hardening on newly deployed Enterprise Systems.           
+
+
+      - role: BUSS Specialist
+        time: Oct 2021 - Jun 2022
+        company: Atos - Morgan Stanley secondment Full-time, Hong Kong
+        details: |
+           Supporting Morgan Stanley Asia Pacific (APAC) Back Office users.
+           Completed a project-based Desktop Infrastructure re-platforming project and assisted in User Acceptance Testing (UAT).
+
+           Speed up UAT for migrated apps using PowerShell.
+           Documenting resolved technical issues.
+
+      - role: IT Engineer
+        time: Dec 2020 - Aug 2021
+        company: Utility Training Insitute Full-time, Hong Kong
+        details: |
+            Assisted IT Manager for daily AD Server administration.
+            Company website maintenance & small office user support.
+
+certifications:
+      title: Microsoft Certified Azure Hybrid Administrator
+      list:
+        - name: Microsoft Certified Azure Hybrid Administrator
+          start: Jan 2023
+          end:
+          organization: Microsoft
+          credentialid: B4F674-9EAHF6
+          credentialurl: https://drive.google.com/file/d/1LcGeLnS_YaBBmVue_kbkXvpJBzuXgO9_/view?usp=drive_link
+          credentialname: Microsoft Certified Azure Hybrid Administrator
+          details: |
+            Achieving a professional credential from Microsoft.
+
+        - name: The Complete Python Developer
+          start: Jul 2024
+          end: Aug 2024
+          organization: Udemy
+          credentialid: 
+          credentialurl: ude.my/UC-de238c2c-cfbe-408c-9dcc-6ac1afec75e7
+          credentialname: Udemy
+          details: |
+            Completed a learning course for Python during my career break.
+            Andrei Neagoie - udemy.com
+
+        - name: IELTS 7.0
+          start: 
+          end: 
+          organization: IELTS
+          credentialid: Academic module examination
+          credentialurl: 
+          credentialname: Berlin Lee
+          details: |
+            Achieved IELTS overall 7.0 in Academic Module
+
+        - name: Intensive English Language Program
+          start: 
+          end: 
+          organization: University of Sydney
+          credentialid: 
+          credentialurl: 
+          credentialname: 
+          details: |
+            Learning advanced native English at University of Sydney
+
+skills:
+    title: Skills &amp; Proficiency
+
+    toolset:
+      - name: Linux Server admin
+        level: 80%
+
+      - name: Windows Server admin
+        level: 80%
+
+      - name: Cross-functional collaborations
+        level: 80%
+
+      - name: Python
+        level: 70%
+
+      - name: HTML5 & CSS3
+        level: 70%
+
+footer: >
+    Re-designed by <i class="fas fa-heart"></i><a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Berlin Lee</a><i class="fas fa-heart"></i>
